@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Click to see Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Sun_Feb_23_18_49_42_EST_2020.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Sun_Feb_23_18_49_42_EST_2020.jpg><img src=Sun_Feb_23_18_49_42_EST_2020.jpg height=200 width=200></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-02-23T23:49:31Z" name="Suite" finished-at="2020-02-23T23:49:42Z" duration-ms="11433">
+    <groups>
+    </groups>
+    <test started-at="2020-02-23T23:49:31Z" name="Sign in Test" finished-at="2020-02-23T23:49:42Z" duration-ms="11433">
+      <class name="automationpractice.testcases.CreateAccountFormTest">
+        <test-method signature="signInTest()[pri:1, instance:automationpractice.testcases.CreateAccountFormTest@53812a9b]" started-at="2020-02-23T23:49:31Z" name="signInTest" finished-at="2020-02-23T23:49:38Z" duration-ms="7166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method signature="authentication()[pri:2, instance:automationpractice.testcases.CreateAccountFormTest@53812a9b]" started-at="2020-02-23T23:49:38Z" name="authentication" finished-at="2020-02-23T23:49:42Z" duration-ms="3370" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at automationpractice.page.action.AccountPage.authenticationPageEmailField(AccountPage.java:91)
+at automationpractice.testcases.CreateAccountFormTest.authentication(CreateAccountFormTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click to see Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Sun_Feb_23_18_49_42_EST_2020.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Sun_Feb_23_18_49_42_EST_2020.jpg><img src=Sun_Feb_23_18_49_42_EST_2020.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- authentication -->
+      </class> <!-- automationpractice.testcases.CreateAccountFormTest -->
+    </test> <!-- Sign in Test -->
+  </suite> <!-- Suite -->
+</testng-results>
